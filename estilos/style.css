@@ -1,19 +1,11 @@
 @charset "UTF-8";
 
 
-/* Opção 2 de cores::after
-    #2D3580
-    #8663B3
-    #DD8FB9
-    #EA9EBA
-    #FFD791
-*/
-
 :root {
     --cor1: #2D3580;
     --cor2: #8663B3;
     --cor3: #ffd79156;
-    --cor4: #757575;
+    --cor4: #8a661c;
 }
 
 * {
@@ -26,7 +18,7 @@
 
 body,
 html {
-    background-image: linear-gradient(180deg,black, var(--cor1),var(--cor2),var(--cor3), rgba(168, 127, 4, 0.614), rgb(135, 67, 22) , rgb(15, 0, 0));
+    background-image:linear-gradient(to top, #edc279ad, var(--cor4));
     background-attachment: fixed;
     height: 100vh;
 } 
@@ -52,6 +44,9 @@ section#login {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.344);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
