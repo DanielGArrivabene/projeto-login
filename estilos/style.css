@@ -90,9 +90,26 @@ div.campo > label {
 
 div.campo > .material-symbols-outlined {
     color: white;
-    background-color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
 }
 
+div.campo > .dig {
+    background-color: #faf5e3;
+    font-size: 1em;
+    width: calc(100%-40px);
+    height: 100%;
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px;
+    border: 2px solid #edc279ad;
+    transform: translateY(-10px);
+}
+
+div.campo > .dig:focus-within {
+    background-color: rgba(255, 255, 255, 0.964);
+}
 
 
 form > input[type=submit] {
