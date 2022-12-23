@@ -78,8 +78,8 @@ form > div.campo{
     display: block;
     width: 100%;
     height: 40px;
-    background-color: #c4933079;
-    box-shadow: inset 0px 0px 14px rgba(126, 94, 0, 0.819);
+    background-color: #edc279ad;
+    box-shadow: inset 0px 0px 14px rgba(252, 220, 124, 0.626);
     border-radius: 5px;
     margin: 7px 0px;
 }
@@ -87,6 +87,12 @@ form > div.campo{
 div.campo > label {
     display: none;
 }
+
+div.campo > .material-symbols-outlined {
+    color: white;
+    background-color: black;
+}
+
 
 
 form > input[type=submit] {
