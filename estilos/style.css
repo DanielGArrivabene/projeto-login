@@ -74,7 +74,7 @@ div#form > p {
 }
 
 
-form > div.campo{
+form > div.campo {
     display: block;
     width: 100%;
     height: 40px;
@@ -98,7 +98,7 @@ div.campo > .material-symbols-outlined {
 div.campo > .dig {
     background-color: #faf5e3;
     font-size: 1em;
-    width: calc(100%-40px);
+    width: 80%;
     height: 100%;
     border: 0px;
     border-radius: 5px;
@@ -117,6 +117,7 @@ form > input[type=submit] {
     font-size: 1em;
     font-weight: bold;
     width: 82%;
+    max-width: 250px;
     height: 33px;
     margin: auto;
     margin-top: 12px;
