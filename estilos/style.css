@@ -91,14 +91,14 @@ div.campo > label {
 div.campo > .material-symbols-outlined {
     color: white;
     font-size: 2em;
-    width: 40px;
+    width: 30px;
     padding: 5px;
 }
 
 div.campo > .dig {
     background-color: #faf5e3;
     font-size: 1em;
-    width: 80%;
+    width: calc(100% - 70px);
     height: 100%;
     border: 0px;
     border-radius: 5px;
