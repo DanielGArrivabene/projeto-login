@@ -99,11 +99,11 @@ div.campo > .dig {
     background-color: #faf5e3;
     font-size: 1em;
     width: calc(100% - 50px);
-    height: 98%;
+    height: 90%;
     border: 0px;
     border-radius: 5px;
     padding: 4px;
-    border: 2px solid #edc279ad;
+    border: 0px solid #edc279ad;
     transform: translateY(-10px);
 }
 
