@@ -100,11 +100,10 @@ div.campo > .dig {
     font-size: 1em;
     width: calc(100% - 50px);
     height: 90%;
-    border: 0px;
     border-radius: 5px;
     padding: 4px;
     border: 0px solid #edc279ad;
-    transform: translateY(-10px);
+    transform: translateY(-10.5px);
 }
 
 div.campo > .dig:focus-within {
